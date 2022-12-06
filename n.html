@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Project Template</title>
+    <link rel="stylesheet" href="css/stylez.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            This is where you will add a navigation test
+            <button onclick="topFunction()" id="myBn" title="Go to top">topp</button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            
+        </nav>
+    </header>
+
+    
+
+
+
+    <form id="myForm">
+        <select id="selectMountain" onchange="listMountain()">
+          <option>Choose a mountain</option>  
+        </select>
+      </form>
+
+<div class="mountain">
+    <img class="mountain-photo" src="images/Adams-StoryImage_2.jpg">
+    <h2 class="mountain-name">Mt. Adams <span class="species">(5799 feet)</span></h2>
+    <h4 class="mountain-desc">Mt. Adams (5,799') is the second highest peak in New England, offering spectacular views across the Great Gulf and King Ravine. </h4>
+    <p><strong>Effort:</strong> Strenuous</p>
+    <strong>Coordinates:</strong> lat: 44.320686 lng: -71.291742
+    <strong>Sunrise:</strong> [object Promise]
+    </div>
+
+    
+
+    <main>
+        <div id="app"></div>
+        <div id="locations"></div>
+        <div id="mountains"></div>
+
+
+
+        <div id=""></div>
+        
+
+       
+
+        <button onclick="loadData();">
+            click here
+        </button>
+
+
+        
+
+    </main>
+    <footer>
+    </footer>
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/petsData.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

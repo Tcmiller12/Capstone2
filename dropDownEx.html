@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<select id="countriesDropDown">
+<!-- <option value="australia">Australia</option> -->
+</select>
+
+<script>
+
+//Declare object
+const countriesData = {
+  "Australia": "",
+  "Canada": "",
+  "UK": "",
+  "USA": ""
+}
+//Selecting the dropdown
+const countriesDropDown = document.getElementById("countriesDropDown");
+
+for (let key in countriesData) {
+  let option = document.createElement("option");
+  option.setAttribute('value', key);
+
+  let optionText = document.createTextNode(key);
+  option.appendChild(optionText);
+
+  countriesDropDown.appendChild(option);
+}
+</script>
+
+</body>
+</html>
