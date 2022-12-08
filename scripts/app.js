@@ -1,7 +1,7 @@
 //  submitButton.addEventListener('click', async () => {
 
 //  });
-
+window.onload = () =>{displayCards()} 
 
 
 function mountainTemplate(mountain) {
@@ -89,4 +89,9 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//let filteredLocation = locationsArray.filter(location => location == selectedValue);
+//let selectedValue; //intializing variable
+// ^ Code from mm
+
 
