@@ -1,7 +1,7 @@
 //  submitButton.addEventListener('click', async () => {
 
 //  });
-window.onload = () =>{displayCards()} 
+
 
 
 function mountainTemplate(mountain) {
@@ -14,7 +14,15 @@ function mountainTemplate(mountain) {
     <h4 class="mountain-desc">${mountain.desc} </h4>
     <p><strong>Effort:</strong> ${mountain.effort}</p>
     <strong>Coordinates:</strong> lat: ${mountain.coords.lat} lng: ${mountain.coords.lng}
-    <strong>Sunrise:</strong> ${mySunrise}
+    <br>
+    <br>
+    <br>
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
     `;
 }

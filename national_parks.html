@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Destinations</a>
+          <div class="dropdown-content">
+            <a href="mountains.html">Mountains</a>
+            <a href="national_parks.html">Parks</a>
+          </div>
+        </li>
+      </ul>
+      <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="parkbody">
+    <main>
+        <div class="container">
+            <select id="parkLocationList"></select>
+            <button id="stateSearchButton">Search State</button>
+
+            <select id="parkTypeList"></select> 
+            <button id="parkTypeSearchButton">Search Park Type</button>
+            
+        </div>
+        <div id="parkDiv"></div>
+        <div id="park"></div>
+      
+
+        <button onclick="topFunction()" id="myBn" title="Go to top">top</button>
+    </main>
+
+    <footer>
+      <script src="scripts/app.js"></script>
+        <script src="scripts/locationData.js"></script>
+        <script src="scripts/nationalParkData.js"></script>
+        <script src="scripts/parkTypeData.js"></script>
+        <script src="parkTest.js"></script>
+    </footer>
+</body>
+</html>
